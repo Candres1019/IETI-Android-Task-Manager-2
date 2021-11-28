@@ -60,4 +60,7 @@ dependencies {
 
     compileOnly 'org.projectlombok:lombok:1.18.22'
     annotationProcessor 'org.projectlombok:lombok:1.18.22'
+
+    implementation "androidx.room:room-runtime:2.3.0"
+    annotationProcessor "androidx.room:room-compiler:2.3.0"
 }
